@@ -1,8 +1,10 @@
 
 <?php
 
-$dir = $_GET['dir'];
-rmdir($dir);
+$file = $_GET['dir'];
+
+rmdir($file);
+
 header("location: index.php");
 
 ?>

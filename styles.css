@@ -22,42 +22,27 @@ a{
 }
 h2 {
     text-align: center;
-    margin: 0;
+    margin: 0; 
 }
-h3 {
-    text-align: center;
-}
-div{
-    background-color: rgba(87, 87, 214, 0.336);
-    width: 200px;
-    padding: 10px;
-    border: 1px solid black;
-    border-radius: 10px;
-}
+
 input {
-    background-color: rgba(0, 128, 0, 0.24);
+    background-color: rgba(2, 0, 128, 0.24);
     padding: 5px;
 }
-.button {
-    background-color: #4CAF50; /* Green */
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  cursor: pointer;
+.inline{
+    display: inline-block;
+    margin-left: 20%;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 15px;
 }
-.button:hover {
-    background-color: #318634; /* Green */
-
-}
-.login {
-    right: 45%;
-    left: 45%;
-    position: absolute;
-}
-.loginas{
+div{
+    border: 1px solid black;
+    border-radius: 15px; 
+    width: 200px;
+    padding: 10px;
     text-align: center;
+    margin: auto;
 }
